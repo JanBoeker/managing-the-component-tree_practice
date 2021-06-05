@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { isPropertySignature } from "typescript";
+//import { isPropertySignature } from "typescript";
 
 function InputArea(props) {
 
