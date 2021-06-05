@@ -18,9 +18,10 @@ function InputArea(props) {
         value={inputText} 
       />
       <button onClick={() => {
-        props.clickExecuted(inputText);
-        setInputText("");
-      }}>
+          props.onAdd(inputText);
+          setInputText("");
+        }}
+      >
         <span>Add</span>
       </button>
     </div>
